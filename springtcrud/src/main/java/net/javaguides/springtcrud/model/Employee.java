@@ -16,6 +16,7 @@ public class Employee {
     @Column(name = "email_id")
     private String emailId;
 
+    
     public Employee(){
     }
     public Employee(String firstName, String lastName, String emailId) {
